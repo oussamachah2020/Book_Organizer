@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@600&display=swap");
+
+body {
+  background: #006caaf0;
+}
+
+input {
+  padding: 8px 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+  outline: none !important;
+}
+
+.register-button {
+  background-color: #17bee4 !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px w-80;
+  bottom: 5pc;
+  text-align: center;
+}
+
+.login-link {
+  text-align: center;
+  position: relative;
+  bottom: 5pc;
+}
+
+.login-button {
+  background-color: #17bee4 !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px w-80;
+  bottom: 5pc;
+  text-align: center;
+}
+
+.link {
+  color: #21d4fd;
+}
+
+.google_auth {
+  background-color: #fff !important;
+  position: relative;
+  left: -12px;
+  bottom: 6pc;
+  width: 100%;
+  text-align: right;
+  padding: 8px;
+  background-image: url("./img/google.png");
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 20px 2px;
+}
+
+label {
+  background-color: #17bee42a;
+  border: 3.5px dashed #17bee4;
+  color: white;
+  padding: 6.5rem 2rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.paragraph {
+  position: relative;
+  left: 40px;
+  top: -20px;
+  letter-spacing: 1px;
+}
+
+.upload-button, .cancel {
+  background-color: #17bee4 !important;
+  padding: 8px 32px;
+  text-align: center;
+  margin-left: 10px;
+  position: relative;
+  left: 15.5%;
+}
+
+.cancel {
+  background-color: #17bee41a !important;
+  border: 2px solid #17bee4;
+}

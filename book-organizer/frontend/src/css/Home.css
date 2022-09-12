@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+p {
+    font-family: lobster;
+    position: relative;
+    left: 20px;
+}
+
+#blog-1 > img {
+    position: relative;
+    right: 40px;
+}
+
+#blog-2 {
+    transform: translate(-40px,60px);
+}
+
+#blog-2 > img {
+    position: relative;
+    left: 30px;
+    bottom: 20px;
+}
+
+#blog-3 {
+    transform: translate(-20px,8pc);
+}
+
+#blog-3 > img {
+    position: relative;
+    bottom: 25px;
+    right: 20px;
+}
+
+button {
+    background-color: #21D4FD !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    border-radius: 10px;
+    color: #ffff;
+    font-family: 'Changa', sans-serif !important;
+}

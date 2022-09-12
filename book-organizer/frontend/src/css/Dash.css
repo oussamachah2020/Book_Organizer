@@ -1,0 +1,27 @@
+.logout {
+    color: #ffff;
+    float: right;
+    position: relative;
+    right: 15px;
+    bottom: 67px;
+}
+
+.dashBtn {
+    background-color: #fff !important;
+}
+
+#statics {
+    background-image: linear-gradient(to right, #673ab7 10.5%, white 0);  
+}
+
+#library {
+    background-image: linear-gradient(to right, #f44336 10.5%, white 0);  
+}
+
+#profile {
+    background-image: linear-gradient(to right, #05776c 10.5%, white 0);  
+}
+
+#random {
+    background-image: linear-gradient(to right, #8bc34a 10.5%, white 0);  
+}
